@@ -39,7 +39,7 @@
 			$(
 				'<div id="titleBar">' +
 					'<a href="#navPanel" class="toggle"></a>' +
-					'<span class="title">' + $('#logo').html() + '</span>' +
+					'<span class="title">' + 'Me voici' + '</span>' +
 				'</div>'
 			)
 				.appendTo($body);
@@ -48,7 +48,16 @@
 			$(
 				'<div id="navPanel">' +
 					'<nav>' +
-						$('#nav').navList() +
+						`
+						<ul>
+						<li><a href="left-sidebar.html"><br/></a></li>
+						<li class="current"><img src="images/pray.png" alt="" width="100px"></li>
+						<li><a href="left-sidebar.html"><br/></a></li>
+						<li><a href="left-sidebar.html"><img src="images/tjs.png" alt="" width="100px"></a></li>
+						<li><a href="left-sidebar.html"><br/></a></li>
+						<li><a href="left-sidebar.html"><img src="images/church.png" alt="" width="100px"></a></li>
+					</ul>
+						`+
 					'</nav>' +
 				'</div>'
 			)
