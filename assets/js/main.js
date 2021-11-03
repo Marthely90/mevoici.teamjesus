@@ -50,11 +50,11 @@
 					'<nav>' +
 						`
 						<ul style="list-style-type: none;">
-						<li class="current"><img src="images/pray.png" alt="" width="100px"></li>
+						<li><img src="images/pray.png" alt="Pray" class="Pray" width="100px"></li>
 						<li>J'aimerais qu'on prie pour moi</li>
-						<li><a href="left-sidebar.html"><img src="images/tjs.png" alt="" width="100px"></a></li>
+						<li><img src="images/tjs.png" alt="TeamJS" class="TeamJS" width="100px"></li>
 						<li>Je veux intégrer la team JESUS</li>
-						<li><a href="left-sidebar.html"><img src="images/church.png" alt="" width="100px"></a></li>
+						<li><img src="images/church.png" alt="ADDN" class="ADDN" width="100px"></li>
 						<li>Je n'ai pas d'église</li>
 					</ul>
 						`+
@@ -75,14 +75,29 @@
 
 })(jQuery);
 
-$( "#Pray" ).on( "click", function() {
-	location.replace("https://www.w3schools.com")
-  });
+$( ".Pray" ).on( "click", function() {
+	$('.style1').fadeOut();
+	$('.integration_form').fadeOut();
+	$('.participation_form').fadeOut();
+
+	$('.pray_form').fadeIn();
+});
   
-  $( "#TeamJS" ).on( "click", function() {
-	location.replace("https://www.w3schools.com")
+  $( ".TeamJS" ).on( "click", function() {
+	$('.style1').fadeOut();
+	$('.integration_form').fadeOut();
+	$('.participation_form').fadeOut();
+	$('.pray_form').fadeOut();
+
+
+	$('.integration_form').fadeIn();
   }); 
 
-  $( "#ADDN" ).on( "click", function() {
-	location.replace("https://www.w3schools.com")
+  $( ".ADDN" ).on( "click", function() {
+	$('.style1').fadeOut();
+	$('.integration_form').fadeOut();
+	$('.pray_form').fadeOut();
+
+	$('.participation_form').fadeIn();
   });
+
