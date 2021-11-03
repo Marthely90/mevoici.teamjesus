@@ -49,13 +49,13 @@
 				'<div id="navPanel">' +
 					'<nav>' +
 						`
-						<ul>
-						<li><a href="left-sidebar.html"><br/></a></li>
+						<ul style="list-style-type: none;">
 						<li class="current"><img src="images/pray.png" alt="" width="100px"></li>
-						<li><a href="left-sidebar.html"><br/></a></li>
+						<li>J'aimerais qu'on prie pour moi</li>
 						<li><a href="left-sidebar.html"><img src="images/tjs.png" alt="" width="100px"></a></li>
-						<li><a href="left-sidebar.html"><br/></a></li>
+						<li>Je veux intégrer la team JESUS</li>
 						<li><a href="left-sidebar.html"><img src="images/church.png" alt="" width="100px"></a></li>
+						<li>Je n'ai pas d'église</li>
 					</ul>
 						`+
 					'</nav>' +
