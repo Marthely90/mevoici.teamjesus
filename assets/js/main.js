@@ -51,7 +51,7 @@
 						`
 						<ul style="list-style-type: none;">
 						<li><img src="images/pray.png" alt="Pray" class="Pray" width="100px"></li>
-						<li>J'aimerais qu'on prie pour moi</li>
+						<li>J'aimerais que l'on prie pour moi</li>
 						<li><img src="images/tjs.png" alt="TeamJS" class="TeamJS" width="100px"></li>
 						<li>Je veux intégrer la team JESUS</li>
 						<li><img src="images/church.png" alt="ADDN" class="ADDN" width="100px"></li>
